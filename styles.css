@@ -1,0 +1,82 @@
+body{
+    /* background-color: rgb(209, 193, 172); */
+  background-image: url(./images/pexels-codioful-\(formerly-gradienta\)-7130490.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .past-experience-class {
+
+} */
+/* I don't know how to make my h1, h2 more to the center and not to take the whole page */
+h1, h2 {
+    text-align:left;
+    border: 5px  rgb(0, 0, 0);
+    border-radius: 50px;
+    margin-top: 80px; 
+    background-color: #995b09;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-decoration-color: #fff;
+    max-width:calc(1800px);
+}
+
+p {
+    text-align: left;
+    padding-left: 20px;
+}
+
+ section, article {
+    /* box-shadow: rgba(236, 109, 6, 0.808) -5px 5px, rgba(209, 130, 12, 0.3) -10px 10px, rgba(207, 154, 8, 0.2) -15px 15px, rgba(163, 70, 8, 0.1) -20px 20px, rgba(160, 70, 10, 0.05) -25px 25px; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin-bottom: 100px;
+    margin-top: 35px; 
+    display: grid;
+    font-size:large;
+}
+
+.top-left-nav {
+    text-align: center;
+    position:static;
+    top: 0;
+    left: 0;
+    background-color: #995b09;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+.top-left-nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    /* gap: 20px; */
+    padding: 0 250px;
+}
+  .top-left-nav li {
+    /* display: inline-block; */
+
+    /* margin-right: 250px; */
+    font-size:larger;
+    
+  }
+  .top-left-nav li a {
+    color: #fff;
+    text-decoration: none;
+
+  }
+  .top-right-photo {
+    position:absolute;
+    top: 12px;
+    right: 8px;
+    width: 220px;
+    border-radius: 50%;
+  }
+  .second-image {
+    display:flex;
+    justify-content: center;
+  }
+  
